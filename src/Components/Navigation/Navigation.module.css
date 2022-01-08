@@ -1,0 +1,16 @@
+ref {
+  display: inline-block;
+  text-decoration: none;
+  padding: 12px;
+  font-weight: 700;
+  color: #2196f3;
+}
+
+a:hover,
+a:focus {
+  color: #e84a5f;
+}
+
+nav {
+  display: inline-block;
+}
