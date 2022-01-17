@@ -5,6 +5,7 @@ import ContactList from "../Components/ContactList/ContactList";
 import Filter from "../Components/Filter/Filter";
 import { fetchContact } from "../redux/contacts/contact-operations";
 // import UserMenu from "../Components/UserMenu/UserMenu";
+import s from "./ContactView.module.css";
 
 function ContactView() {
   const dispatch = useDispatch();
@@ -13,7 +14,7 @@ function ContactView() {
   }, [dispatch]);
 
   return (
-    <div>
+    <div classname={s.form}>
       <div>
         <ContactForm />
         <Filter />

@@ -1,0 +1,12 @@
+.form {
+  border: 2px solid #6b6969;
+  width: 350px;
+  align-items: center;
+  text-align: center;
+}
+
+.title {
+  color: #050130;
+  font-size: 25px;
+  color: rgb(39, 37, 37);
+}
