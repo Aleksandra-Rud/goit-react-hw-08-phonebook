@@ -13,20 +13,33 @@ const styles = {
   },
 };
 
+// function AuthNav() {
+//   return (
+//     <div>
+//       <Link
+//         to="/register"
+//         style={(data) => (data.isActive ? styles.active : styles.link)}
+//       >
+//         Register
+//       </Link>
+//       <NavLink
+//         to="/login"
+//         exact="true"
+//         style={(data) => (data.isActive ? styles.active : styles.link)}
+//       >
+//         Login
+//       </NavLink>
+//     </div>
+//   );
+// }
+
 function AuthNav() {
   return (
     <div>
-      <Link
-        to="/register"
-        style={(data) => (data.isActive ? styles.active : styles.link)}
-      >
+      <Link to="/register" style={styles.link}>
         Register
       </Link>
-      <NavLink
-        to="/login"
-        exact="true"
-        style={(data) => (data.isActive ? styles.active : styles.link)}
-      >
+      <NavLink to="/login" exact="true" style={styles.link}>
         Login
       </NavLink>
     </div>

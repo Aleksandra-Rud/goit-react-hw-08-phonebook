@@ -1,4 +1,4 @@
-ref {
+.ref {
   display: inline-block;
   text-decoration: none;
   padding: 12px;
@@ -11,6 +11,6 @@ a:focus {
   color: #e84a5f;
 }
 
-nav {
+.nav {
   display: inline-block;
 }

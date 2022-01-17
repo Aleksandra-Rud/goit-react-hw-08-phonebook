@@ -9,6 +9,13 @@
   color: #050130;
 }
 
+.text {
+  align-items: center;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
 .formLbl {
   font-size: 25px;
   color: rgb(39, 37, 37);

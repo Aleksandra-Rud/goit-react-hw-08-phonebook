@@ -48,9 +48,10 @@ function RegisterView() {
             className={s.inputLbl}
           />
         </label>
+        <br />
 
         <label className={s.formLbl}>
-          <span className={s.text}>e-mail</span>
+          <p className={s.text}>e-mail</p>
           <input
             type="email"
             name="email"
@@ -62,7 +63,7 @@ function RegisterView() {
         </label>
 
         <label className={s.formLbl}>
-          <span className={s.text}>Password</span>
+          <p className={s.text}>Password</p>
           <input
             type="password"
             name="password"

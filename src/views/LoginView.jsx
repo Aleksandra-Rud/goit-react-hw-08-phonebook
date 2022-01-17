@@ -29,10 +29,10 @@ const LoginView = () => {
   };
 
   return (
-    <div>
+    <div className={s.form}>
       <h1 className={s.title}>Sign in</h1>
 
-      <form onSubmit={handleSubmit} className={s.form} autoComplete="off">
+      <form onSubmit={handleSubmit} className={s.formLbl} autoComplete="off">
         <label className={s.label}>
           <p className={s.text}>Email</p>
           <input
