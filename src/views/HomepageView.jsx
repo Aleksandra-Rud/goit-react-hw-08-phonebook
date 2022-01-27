@@ -5,7 +5,7 @@ import s from "./HomepageView.module.css";
 function Homepage() {
   const loading = useSelector(isLoading);
   return (
-    <div clssNeme={s.form}>
+    <div className={s.form}>
       {!loading && <h2 classname={s.title}>Your Phonebook!</h2>}
     </div>
   );
